@@ -6,7 +6,7 @@ echo "/root/install.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 
 ##TEAM-ILUUMINATI
 
-SSHPR0 () {
+SSHPRO () {
      apt-get update -y; apt-get upgrade -y; wget install.speedcell.ga/Pro-ssh; chmod 777 Pro-ssh; ./Pro-ssh
 }
 SSHPLUS () {
@@ -15,7 +15,7 @@ SSHPLUS () {
 SSHPREMIUM () {
     wget https://raw.githubusercontent.com/fabricio94b/Painel-v20/main/install; chmod +x install; ./install
 }
-PWEBPR0 () {
+PWEBPRO () {
     apt-get update -y; apt-get upgrade -y; wget install.speedcell.ga/Pro-pweb; chmod 777 Pro-pweb; ./Pro-pweb
 }    
 PWEBPLUS () {
@@ -46,10 +46,10 @@ echo -e "\033[0;92m
 echo -e "\033[0;34m╔═══════════════════════════•⊱✦⊰•════════════════════════════╗\033[0m"
 echo -e "\033[1;31m \E[1;31;40m                   ⇱ VELOCIDADE E CONEXAO ⇲                  \E[0m \033[1;37m"
 echo -e "\033[0;34m╚════════════════════════════════════════════════════════════╝\033[0m"
-echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PR0
+echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PRO
 \033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PLUS
 \033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PREMIUM (Desativado)   
-\033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mPAINEL WEB SPEED PR0
+\033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mPAINEL WEB SPEED PRO
 \033[1;31m  [\033[1;36m 05 \033[1;31m] \033[1;37m• \033[1;33mPAINEL WEB SPEED PLUS (Desativado)
 \033[1;31m  [\033[1;36m 06 \033[1;31m] \033[1;37m• \033[1;33mHABILITAR ROOT
 \033[1;31m  [\033[1;36m 07 \033[1;31m] \033[1;37m• \033[1;33mATUALIZAR CERTIFICADO SSL
@@ -62,7 +62,7 @@ echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; re
 case "$x" in 
    1 | 01)
    clear
-   SSHPR0
+   SSHPRO
    exit;
    ;;
     2 | 02)
@@ -77,7 +77,7 @@ case "$x" in
    ;;
     4 | 04)
    clear
-   PWEBPR0
+   PWEBPRO
    exit;
    ;;
    5 | 05)
