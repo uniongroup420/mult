@@ -28,6 +28,7 @@
 
 # __MULTI-SCRIPTS__
 
-```wget https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/multi.sh; chmod +x multi.sh; ./multi.sh```
+```wget https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/multi.sh; chmod +x multi.sh; ./multi.sh
+```
  
 
