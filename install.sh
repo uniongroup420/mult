@@ -13,13 +13,13 @@ SSHPLUS () {
       wget https://raw.githubusercontent.com/fabricio94b/VPS-MANAGER/main/SlowDNS/install; chmod +x install; ./install
 }
 SSHPREMIUM () {
-    wget https://raw.githubusercontent.com/fabricio94b/Painel-v20/main/install; chmod +x install; ./install
+    #wget https://raw.githubusercontent.com/fabricio94b/Painel-v20/main/install; chmod +x install; ./install
 }
 PWEBPRO () {
     apt-get update -y; apt-get upgrade -y; wget install.speedcell.ga/Pro-pweb; chmod 777 Pro-pweb; ./Pro-pweb
 }    
 PWEBPLUS () {
-    wget https://raw.githubusercontent.com/fabricio94b/Painel-v20/main/install; chmod +x install; ./install
+    #wget https://raw.githubusercontent.com/fabricio94b/Painel-v20/main/install; chmod +x install; ./install
 }
 HABILITARROOT () {
     wget -y; bash <(wget -qO- https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PLUS/master/senharoot.sh)
