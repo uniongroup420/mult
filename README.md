@@ -39,6 +39,4 @@
 wget https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/install.sh; chmod +x install.sh; ./install.sh
 ```
 
-# PRODUÇÃO  
-
-<h3 href="https://t.me/srSPEEDiness" style="font-size:80dp"> SR SPEEDINESS</h3>
+<h2 align="center"><b>PRODUÇÃO<a href="https://t.me/srSPEEDiness"> SR SPEEDINESS</h3></b></a>
