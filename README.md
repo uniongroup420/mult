@@ -1,13 +1,14 @@
 <p align="center">
   <img src="https://github.com/srSPEEDiness/MULTI-SCRIPTS/blob/main/icone.jpg" height="400px"/>
-</p>
+</p><br>
+<h3 align="center">✩░▒▓▆▅▃▂▁       𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋       ▁▂▃▅▆▓▒░✩</h3> 
 
-# ✩░▒▓▆▅▃▂▁       𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋       ▁▂▃▅▆▓▒░✩
 
 <p><b>⚠ SISTEMA SUPORTADO: (UBUNTU 18!).⚠</br>
 
 # —(••÷[ 𝐈𝐌𝐀𝐆𝐄𝐌 ]÷••)—
 ![Screenshot_01](https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/banner.jpg)
+<p align="right"><b>⚠ SISTEMA SUPORTADO: (UBUNTU 18!).⚠</br>
 
 # Conteúdos
 
@@ -28,9 +29,9 @@
 
 # SOLICITE KEY: 
 
-[![Join Telegram Group](https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=Telegram)](https://t.me/srSPEEDiness)
+[![Join Telegram Chat](https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=Telegram)](https://t.me/srSPEEDiness)
 
-[![Join WhatsApp Group](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://wa.me/5521976102205)
+[![Join WhatsApp Chat](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://wa.me/5521976102205)
 
 
 <a href="https://t.me/srSPEEDiness" style="font-size:80dp"> @srSPEEDiness </a>
