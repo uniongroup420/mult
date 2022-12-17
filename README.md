@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/srSPEEDiness/MULTI-SCRIPTS/blob/main/icone.jpg" height="400px"/>
-</p><br>
+</p>
 <h1 align="center">✩░▒▓▆▅▃▂▁       𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋       ▁▂▃▅▆▓▒░✩</h3> 
 
 
