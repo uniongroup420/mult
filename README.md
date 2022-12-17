@@ -1,8 +1,7 @@
 <p align="center">
   <img src="https://github.com/srSPEEDiness/MULTI-SCRIPTS/blob/main/icone.jpg" height="400px"/>
 </p>
-<h1 align="center">✩░▒▓▆▅▃▂▁<b>VELOCIDADE E CONEXÃO</b>▁▂▃▅▆▓▒░✩</h1> 
-<br>
+<h3 align="center">✩░▒▓▆▅▃▂▁<b>VELOCIDADE E CONEXÃO</b>▁▂▃▅▆▓▒░✩</h3> 
 <br>
 <h1 align="center"> —(••÷[ 𝐈𝐌𝐀𝐆𝐄𝐌 ]÷••)— </h1>
 <p align="center">
