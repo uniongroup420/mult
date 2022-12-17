@@ -110,12 +110,10 @@ case "$x" in
    exit;
    ;;
    8 | 08)
-   clear
-     msg -bar3
-  msg -ne "\n Esse comando irá apagar todos os dados \n Para continuar aperte Enter:" | pv -qL 10
-  read opcion
-  [[ "$opcion" != @(s|S) ]] && stop_install
-  clear && clear
+   msg -ne "\n Esse comando irá apagar todos os dados \n Para continuar aperte Enter:" | pv -qL 10
+   read opcion
+   [[ "$opcion" != @(s|S) ]] && stop_install
+   clear && clear
    LIMPARVPS
    exit;
    ;;
