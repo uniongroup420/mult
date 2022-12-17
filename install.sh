@@ -28,7 +28,7 @@ ATTSSL () {
     apt install wget -y; wget --no-check-certificate https://www.dropbox.com/s/v2hvhv8z86zlsqd/ssl.sh; chmod +x ssl.sh; ./ssl.sh
 }
 LIMPARVPS () {
-    apt update -y && apt upgrade -y && apt autoremove -y && apt -f install -y && apt autoclean -y
+    apt autoremove -y; apt -f install -y; apt autoclean -y; bash <(wget https://github.com/srSPEEDiness/SPEEDSSH-PLUS/raw/main/Install/remove.sh)
 }
 SINCPRO () {
     apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/sincpainel.sh)
