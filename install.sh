@@ -65,13 +65,13 @@ echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 07 •\033[1;31m]\033[1;3
 echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 08 •\033[1;31m]\033[1;37m ➩ \033[1;33m LIMPAR VPS \033[1;37m \033[0;32m                                       \033[00;34m║"
 echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 09 •\033[1;31m]\033[1;37m ➩ \033[1;37m MENU \033[0;32m                                              \033[00;34m║"
 echo -e "\033[0;34m╠══════════════════════════════════════════════════════════════╣\033[0m"
-echo -e "\033[0;34m\033[5;34;47m║     A ➩ SINC PRO   ║    B ➩ SINC PLUS    ║    00 ➩ SAIR      ║\033[0m"
+echo -e "\033[0;34m║\033[5;34;47m     A ➩ SINC PRO   ║    B ➩ SINC PLUS    ║    00 ➩ SAIR      \033[0m║\033[0m"
 echo -e "\033[0;34m╚══════════════════════════════════════════════════════════════╝\033[0m"
 echo -e ""
 echo -e "\033[0;34m╔══════════════════════════════════════════════════════════════╗\033[0m"
 echo -e "\033[1;31m \E[1;31;40m          COMPRE SUA KEY \033[1;36m(TELEGRAM)\033[1;31m: \033[1;37m@srSPEEDiness                  \E[0m \033[1;37m"
 echo -e "\033[0;34m╚══════════════════════════════════════════════════════════════╝\033[0m"
-echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; read x  | pv -qL 6
+echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; read x
 
 case "$x" in 
    1 | 01)
@@ -79,7 +79,7 @@ case "$x" in
    SSHPRO
    exit;
    ;;
-    2 | 02)
+   2 | 02)
    clear
    SSHPLUS
    exit;
@@ -89,7 +89,7 @@ case "$x" in
    SSHPREMIUM
    exit;
    ;;
-    4 | 04)
+   4 | 04)
    clear
    PWEBPRO
    exit;
@@ -104,12 +104,12 @@ case "$x" in
    HABILITARROOT
    exit;
    ;;
-    7 | 07)
+   7 | 07)
    clear
    ATTSSL
    exit;
    ;;
-    8 | 08)
+   8 | 08)
    clear
      msg -bar3
   msg -ne "\n Esse comando irá apagar todos os dados \n Para continuar aperte Enter:" | pv -qL 10
@@ -118,8 +118,8 @@ case "$x" in
   clear && clear
    LIMPARVPS
    exit;
-    ;;
-    9 | 09)
+   ;;
+   9 | 09)
    clear
    MENU
    exit;
