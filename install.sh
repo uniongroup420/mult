@@ -1,4 +1,3 @@
-#! bin/bash
 
 barra="\033[0m\e[34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo "/root/install.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
