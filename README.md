@@ -1,4 +1,4 @@
-# ✩░▒▓▆▅▃▂▁𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋▁▂▃▅▆▓▒░✩
+#         ✩░▒▓▆▅▃▂▁𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋▁▂▃▅▆▓▒░✩
 
 <p align="center">
   <img src="https://github.com/srSPEEDiness/MULTI-SCRIPTS/blob/main/icone.jpg" height="400px"/>
