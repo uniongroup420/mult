@@ -1,14 +1,16 @@
 <p align="center">
   <img src="https://github.com/srSPEEDiness/MULTI-SCRIPTS/blob/main/icone.jpg" height="400px"/>
 </p><br>
-<h3 align="center">✩░▒▓▆▅▃▂▁       𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋       ▁▂▃▅▆▓▒░✩</h3> 
+<h1 align="center">✩░▒▓▆▅▃▂▁       𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋       ▁▂▃▅▆▓▒░✩</h3> 
 
 
 <p><b>⚠ SISTEMA SUPORTADO: (UBUNTU 18!).⚠</br>
 
 # —(••÷[ 𝐈𝐌𝐀𝐆𝐄𝐌 ]÷••)—
-![Screenshot_01](https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/banner.jpg)
-<p align="right"><b>⚠ SISTEMA SUPORTADO: (UBUNTU 18!).⚠</br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/banner.jpg" height="400px"/>
+</p>
+<p align="center"><b>⚠ SISTEMA SUPORTADO: (UBUNTU 18!).⚠</br>
 
 # Conteúdos
 
