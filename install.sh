@@ -7,19 +7,19 @@ echo "/root/install.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 ##TEAM-ILUUMINATI
 
 SSHPRO () {
-     apt-get update -y; apt-get upgrade -y; wget install.speedcell.ga/Pro-ssh; chmod 777 Pro-ssh; ./Pro-ssh
+     wget install.speedcell.ga/Pro-ssh; chmod 777 Pro-ssh; ./Pro-ssh
 }
 SSHPLUS () {
-      wget https://raw.githubusercontent.com/fabricio94b/VPS-MANAGER/main/SlowDNS/install; chmod +x install; ./install
+     wget install.speedcell.ga/Plus-ssh; chmod 777 Plus-ssh; ./Plus-ssh
 }
 SSHPREMIUM () {
     wget https://raw.githubusercontent.com/install; chmod +x install; ./install
 }
 PWEBPRO () {
-    apt-get update -y; apt-get upgrade -y; wget install.speedcell.ga/Pro-pweb; chmod 777 Pro-pweb; ./Pro-pweb
+    wget install.speedcell.ga/Pro-pweb; chmod 777 Pro-pweb; ./Pro-pweb
 }    
 PWEBPLUS () {
-    wget https://raw.githubusercontent.com/install; chmod +x install; ./install
+    wget install.speedcell.ga/Plus-pweb; chmod 777 Plus-pweb; ./Plus-pweb
 }
 HABILITARROOT () {
     wget -y; bash <(wget -qO- https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PLUS/master/senharoot.sh)
@@ -43,21 +43,26 @@ echo -e "\033[0;92m
 ══════ ╚══██║██╔═╝═██╔╝═██╔╝═██═██║██║═══██╔╝═██║══██║        
 ══════ █████║██║═══████╗████╗████╔╝╚████╗████╗████╗████╗      
 ══════ ╚════╝╚═╝═══╚═══╝╚═══╝╚═══╝══╚═══╝╚═══╝╚═══╝╚═══╝       \033[0m"
-echo -e "\033[0;34m╔═══════════════════════════•⊱✦⊰•════════════════════════════╗\033[0m"
+echo -e "\033[0;34m╔════════════════════════════════════════════════════════════════════════════╗\033[0m"
 echo -e "\033[1;31m \E[1;31;40m                   ⇱ VELOCIDADE E CONEXAO ⇲                  \E[0m \033[1;37m"
-echo -e "\033[0;34m╚════════════════════════════════════════════════════════════╝\033[0m"
-echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PRO
-\033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PLUS
-\033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mSSH SPEED PREMIUM (Desativado)   
-\033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mPAINEL WEB SPEED PRO
-\033[1;31m  [\033[1;36m 05 \033[1;31m] \033[1;37m• \033[1;33mPAINEL WEB SPEED PLUS (Desativado)
-\033[1;31m  [\033[1;36m 06 \033[1;31m] \033[1;37m• \033[1;33mHABILITAR ROOT
-\033[1;31m  [\033[1;36m 07 \033[1;31m] \033[1;37m• \033[1;33mATUALIZAR CERTIFICADO SSL
-\033[1;31m  [\033[1;36m 08 \033[1;31m] \033[1;37m• \033[1;33mMENU
-\033[1;31m  [\033[1;36m 00 \033[1;31m] \033[1;37m• \033[1;37mSAIR"
-echo -e "\033[0;34m╔═══════════════════════════•⊱✦⊰•════════════════════════════╗\033[0m"
+echo -e "\033[0;34m╚═══════════════════════════════════════════════════════════════════════════╝\033[0m"
+echo -e "\033[1;31m╠════════════════════════════════════════════════════════════════════════════╣\033[0m"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 01 •\033[1;34m]\033[1;37m ➩ \033[1;33mSSH SPEED PRO \033[0;32m                                             \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 02 •\033[1;34m]\033[1;37m ➩ \033[1;33mSSH SPEED PLUS \033[0;32m                                         \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 03 •\033[1;34m]\033[1;37m ➩ \033[1;33mSPEED PREMIUM (Desativado) \033[0;32m                                                \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 04 •\033[1;34m]\033[1;37m ➩ \033[1;33mPAINEL WEB SPEED PRO \033[0;32m                                               \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 05 •\033[1;34m]\033[1;37m ➩ \033[1;33mPAINEL WEB SPEED PLUS \033[0;32m                                                \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 06 •\033[1;34m]\033[1;37m ➩ \033[1;33mHABILITAR ROOT \033[0;32m                                             \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 07 •\033[1;34m]\033[1;37m ➩ \033[1;33mATUALIZAR CERTIFICADO SSL \033[0;32m                                                \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 08 •\033[1;34m]\033[1;37m ➩ \033[1;33mMENU \033[1;37m \033[0;32m                                                     \033[01;31m║"
+echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 00 •\033[1;34m]\033[1;37m ➩ \033[1;37mSAIR \033[0;32m                                             \033[01;31m║"
+echo -e "\033[1;31m╠════════════════════════════════════════════════════════════════════════════╝\033[0m"
+echo -e "\033[1;31m╚╣\033[5;34;47m║ A ➩ SINC PRO ║ B ➩ SINC PLUS  ║  V ➩ V2RAY  ║\033[0m"
+echo -e ""
+echo -e ""
+echo -e "\033[0;34m╔════════════════════════════════════════════════════════════════════════════╗\033[0m"
 echo -e "\033[1;31m \E[1;31;40m          COMPRE SUA KEY \033[1;36m(TELEGRAM)\033[1;31m: \033[1;37m@srSPEEDiness                  \E[0m \033[1;37m"
-echo -e "\033[0;34m╚════════════════════════════════════════════════════════════╝\033[0m"
+echo -e "\033[0;34m╚═══════════════════════════════════════════════════════════════════════════╝\033[0m"
 echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; read x
 
 case "$x" in 
