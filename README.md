@@ -1,8 +1,9 @@
 <p align="center">
   <img src="https://github.com/srSPEEDiness/MULTI-SCRIPTS/blob/main/icone.jpg" height="400px"/>
 </p>
-<h1 align="center">✩░▒▓▆▅▃▂▁       𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋       ▁▂▃▅▆▓▒░✩</h3> 
-<br><br>
+<h1 align="center">✩░▒▓▆▅▃▂▁<b>VELOCIDADE E CONEXÃO</b>▁▂▃▅▆▓▒░✩</h1> 
+<br>
+<br>
 <h1 align="center"> —(••÷[ 𝐈𝐌𝐀𝐆𝐄𝐌 ]÷••)— </h1>
 <p align="center">
   <img src="https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/banner.jpg" height="400px"/>
