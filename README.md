@@ -33,15 +33,12 @@
 [![Join WhatsApp Chat](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://wa.me/5521976102205)
 
 
-<a href="https://t.me/srSPEEDiness" style="font-size:80dp"> @srSPEEDiness </a>
-
 # __MULTI-SCRIPTS__
 
 ```
 wget https://raw.githubusercontent.com/srSPEEDiness/MULTI-SCRIPTS/main/install.sh; chmod +x install.sh; ./install.sh
 ```
 
-# KEY FREE 
-``` 
-27446:24027 
-```
+# PRODUÇÃO  
+
+<h3 href="https://t.me/srSPEEDiness" style="font-size:80dp"> SR SPEEDINESS</h3>
