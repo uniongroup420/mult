@@ -30,6 +30,12 @@ ATTSSL () {
 LIMPARVPS () {
     apt update -y && apt upgrade -y && apt autoremove -y && apt -f install -y && apt autoclean -y
 }
+SINCPRO () {
+    apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/sincpainel.sh)
+}
+SINCPLUS () {
+    apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/sincpainel.sh)
+}
 MENU () {
     clear
     menu
