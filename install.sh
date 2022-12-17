@@ -127,12 +127,10 @@ case "$x" in
    exit;
    ;;
    l | L
-   clear
    SINCPRO
    exit;
    ;;
    r | R
-   clear
    SINCPLUS
    exit;
    ;;
