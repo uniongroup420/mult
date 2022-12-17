@@ -1,5 +1,10 @@
 # ✩░▒▓▆▅▃▂▁𝐒𝐏𝐄𝐄𝐃𝐂𝐄𝐋𝐋▁▂▃▅▆▓▒░✩
 
+<p align="center">
+  <img src="main/icone.jpg" height="400px"/>
+</p>
+
+
 <p><b>⚠ SISTEMA SUPORTADO: (UBUNTU 18!).⚠</br>
 
 # —(••÷[ 𝐈𝐌𝐀𝐆𝐄𝐌 ]÷••)—
@@ -22,7 +27,12 @@
 • CERTIFICADO SSL
 
 
-# SOLICITE KEY (TELEGRAM): 
+# SOLICITE KEY: 
+
+[![Join Telegram Group](https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=Telegram)](https://t.me/srSPEEDiness)
+
+[![Join WhatsApp Group](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://wa.me/5521976102205)
+
 
 <a href="https://t.me/srSPEEDiness" style="font-size:80dp"> @srSPEEDiness </a>
 
