@@ -34,7 +34,7 @@ apt install wget -y; wget --no-check-certificate https://www.dropbox.com/s/4c17v
 }
 #08
 LIMPARVPS () {
-apt update -y && apt upgrade -y wget https://raw.githubusercontent.com/Cyber-ssh/mult/main/install.sh; chmod +x install.sh; ./install.sh
+wget https://raw.githubusercontent.com/Cyber-ssh/mult/main/install.sh; chmod +x install.sh; ./install.sh
 }
 #Outros tipos 
 SINCPRO () {
