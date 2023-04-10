@@ -18,7 +18,7 @@ apt instalar wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/pweb/raw/mai
 }
 #04
 PWEBPRO () {
-    
+ apt install wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/web4g/raw/main/ubuinst.sh)   
 }
 #05    
 CONECTA4G () {
