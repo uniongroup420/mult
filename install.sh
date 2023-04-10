@@ -128,6 +128,7 @@ case "$x" in
    exit;
    ;;
    9 | 09)
+   clear
    atualizar
    exit;
    ;;
