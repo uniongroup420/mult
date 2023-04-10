@@ -3,38 +3,45 @@ barra="\033[0m\e[34m━━━━━━━━━━━━━━━━━━━━
 echo "/root/install.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 
 ##SCRIPTS A INSTALAR
-
 ##TEAM-ILUUMINATI
-
-SSHPRO () {
-     wget install.speedcell.ga/Pro-ssh; chmod 777 Pro-ssh; ./Pro-ssh
-}
+#01
 SSHPLUS () {
-     wget install.speedcell.ga/Plus-ssh; chmod 777 Plus-ssh; ./Plus-ssh
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/Cyber-ssh/ssh-plus/master/Plus && chmod 777 Plus && ./Plus
 }
-SSHPREMIUM () {
-    wget https://raw.githubusercontent.com/install; chmod +x install; ./install
+#02
+SSHTURBO () {
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Cyber-ssh/turbo/main/ssh-plus)
 }
+#03
+PWEB () {
+apt instalar wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/pweb/raw/main/ubuinst.sh)
+}
+#04
 PWEBPRO () {
     wget install.speedcell.ga/Pro-pweb; chmod 777 Pro-pweb; ./Pro-pweb
-}    
-PWEBPLUS () {
-    wget install.speedcell.ga/Plus-pweb; chmod 777 Plus-pweb; ./Plus-pweb
 }
+#05    
+CONECTA4G () {
+apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/PAINEL4G/raw/main/install4g.sh)
+}
+#06
 HABILITARROOT () {
     wget -y; bash <(wget -qO- https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PLUS/master/senharoot.sh)
 }
+#07
 ATTSSL () {
-    apt install wget -y; wget --no-check-certificate https://www.dropbox.com/s/v2hvhv8z86zlsqd/ssl.sh; chmod +x ssl.sh; ./ssl.sh
+apt install wget -y; wget --no-check-certificate https://www.dropbox.com/s/4c17vl6g1g64qzq/ssl.sh; chmod +x ssl.sh; ./ssl.sh
 }
+#08
 LIMPARVPS () {
     apt autoremove -y; apt -f install -y; apt autoclean -y; bash <(wget -qO- https://github.com/srSPEEDiness/SPEEDSSH-PLUS/raw/main/Install/remove.sh)
 }
+#Outros tipos 
 SINCPRO () {
-    apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/sincpainel.sh)
+    apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/hd8eolt6myuqae4/sincpainel.zip)
 }
 SINCPLUS () {
-    apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/sincpainel.sh)
+    apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/hd8eolt6myuqae4/sincpainel.zip)
 }
 MENU () {
     clear
@@ -44,19 +51,18 @@ MENU () {
 while true $x != "ok"
 do
 clear
-echo -e "PAINEL WEB" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "\033[0;34m╔══════════════════════════════════════════════════════════════╗\033[0m"
-echo -e "\033[1;31m \E[1;31;40m                   ⇱ VELOCIDADE E CONEXAO ⇲                  \E[0m \033[1;37m"
-echo -e "\033[0;34m╠══════════════════════════════════════════════════════════════╣\033[0m"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 01 •\033[1;31m]\033[1;37m ➩ \033[1;33m SSH SPEED PRO \033[0;32m                                     \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 02 •\033[1;31m]\033[1;37m ➩ \033[1;33m SSH SPEED PLUS \033[0;32m                                    \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 03 •\033[1;31m]\033[1;37m ➩ \033[1;33m SPEED PREMIUM (Desativado) \033[0;32m                        \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 04 •\033[1;31m]\033[1;37m ➩ \033[1;33m PAINEL WEB SPEED PRO \033[0;32m                              \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 05 •\033[1;31m]\033[1;37m ➩ \033[1;33m PAINEL WEB SPEED PLUS \033[0;32m                             \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 06 •\033[1;31m]\033[1;37m ➩ \033[1;33m HABILITAR ROOT \033[0;32m                                    \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 07 •\033[1;31m]\033[1;37m ➩ \033[1;33m ATUALIZAR CERTIFICADO SSL \033[0;32m                         \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 08 •\033[1;31m]\033[1;37m ➩ \033[1;33m LIMPAR VPS \033[1;37m \033[0;32m                                       \033[00;34m║"
-echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m 09 •\033[1;31m]\033[1;37m ➩ \033[1;37m MENU \033[0;32m                                              \033[00;34m║"
+echo -e "\033[0;34m╔━━━━━━━━━━━━━━━━━━━━━━━━033[0;33mVPS VIP━━━━━━━━━━━━━━━━━━━━━━╗\033[0m"
+echo -e " \E[41;1;37m        CYBERSSH MANAGER PLUS  ⁠☞ ⇱ CYBERSSH ⇲       \E[0m"
+echo -e "\033[0;34m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m01 •\033[1;31m]\033[1;37m ➩ \033[1;33m SSH PLUS \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m02 •\033[1;31m]\033[1;37m ➩ \033[1;33m SSH PLUS TURBO \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m03 •\033[1;31m]\033[1;37m ➩ \033[1;33m PWEB  \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m04 •\033[1;31m]\033[1;37m ➩ \033[1;33m PWEB 4G (Desativado)\033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m05 •\033[1;31m]\033[1;37m ➩ \033[1;33m CONECTA 4G \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m06 •\033[1;31m]\033[1;37m ➩ \033[1;33m HABILITAR ROOT \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m07 •\033[1;31m]\033[1;37m ➩ \033[1;33m ATUALIZAR CERTIFICADO SSL \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m08 •\033[1;31m]\033[1;37m ➩ \033[1;33m LIMPAR VPS \033[1;37m \033[0;32m "
+echo -e "\033[00;34m║\033[1;31m\033[1;31m[\033[1;37m09 •\033[1;31m]\033[1;37m ➩ \033[1;37m MENU \033[0;32m "
 echo -e "\033[0;34m╠══════════════════════════════════════════════════════════════╣\033[0m"
 echo -e "\033[0;34m║\033[5;34;47m     A ➩ SINC PRO   ║    B ➩ SINC PLUS    ║    00 ➩ SAIR      \033[0m║\033[0m"
 echo -e "\033[0;34m╚══════════════════════════════════════════════════════════════╝\033[0m"
@@ -69,17 +75,17 @@ echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; re
 case "$x" in 
    1 | 01)
    clear
-   SSHPRO
+   SSHPLUS
    exit;
    ;;
    2 | 02)
    clear
-   SSHPLUS
+   SSHTURBO
    exit;
    ;;
    3 | 03)
    clear
-   SSHPREMIUM
+   PWEB
    exit;
    ;;
    4 | 04)
@@ -89,7 +95,7 @@ case "$x" in
    ;;
    5 | 05)
    clear
-   PWEBPLUS
+   CONECTA4G
    exit;
    ;;
    6 | 06)
