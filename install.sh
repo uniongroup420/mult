@@ -6,14 +6,14 @@ echo "/root/install.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 ##TEAM-ILUUMINATI
 atualizar () {
 echo ""
-fun_bar "apt-get update -y"
-fun_bar "apt-get upgrade -y"
+#fun_bar "apt-get update -y"
+#fun_bar "apt-get upgrade -y"
 fun_att () {
     service ssh restart > /dev/null 2>&1
     rm -rf $HOME/install.sh > /dev/null 2>&1
     wget https://raw.githubusercontent.com/Cyber-ssh/mult/main/install.sh; chmod +x install.sh; ./install.sh > /dev/null 2>&1
 }
-fun_bar 'fun_att'
+#fun_bar 'fun_att'
 echo ""
 echo -e "\033[1;33m UPDATE COM SUCESSO -\033[1;32m OK !\033[1;37m"
 sleep 4s
