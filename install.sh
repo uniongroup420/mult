@@ -17,7 +17,7 @@ PWEB () {
 apt instalar wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/pweb/raw/main/ubuinst.sh)
 }
 #04
-PWEBPRO () {
+PWEB4G () {
  apt install wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/web4g/raw/main/ubuinst.sh)   
 }
 #05    
@@ -64,10 +64,10 @@ echo -e "\033[1;31m\033[1;31m[\033[1;37m07\033[1;31m]\033[1;37m➩ \033[1;33m AT
 echo -e "\033[1;31m\033[1;31m[\033[1;37m08\033[1;31m]\033[1;37m➩ \033[1;33m LIMPAR VPS \033[1;37m \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;37m09\033[1;31m]\033[1;37m➩ \033[1;33m MENU \033[0;32m "
 echo -e "\033[0;34m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[0m"
-echo -e "\033[0;34m║\033[5;34;47m     A ➩ SINC PRO   ║    B ➩ SINC PLUS    ║    00 ➩ SAIR      \033[0m║"
+echo -e "\033[0;34m║\033[5;34;47m   A ➩ SINC PRO   ║  B ➩ SINC PLUS    ║  00 ➩ SAIR      \033[0m║"
 echo -e "\033[0;34m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
 echo -e "\033[0;34m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[0m"
-echo -e "\033[1;31m║\E[41;31;40mCOMPRE SUA KEY \033[1;36m(WHATSAPP)\033[1;31m: \033[1;37m97984211002\E[0m \033[1;37m║"
+echo -e "\033[1;31m║\E[1;31;40m COMPRE SUA KEY \033[1;36m(WHATSAPP)\033[1;31m: \033[1;37m97984211002\E[0m \033[1;37m║"
 echo -e "\033[0;34m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
 echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; read x
 
@@ -89,7 +89,7 @@ case "$x" in
    ;;
    4 | 04)
    clear
-   PWEBPRO
+   PWEB4G
    exit;
    ;;
    5 | 05)
