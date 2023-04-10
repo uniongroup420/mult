@@ -44,7 +44,7 @@ MENU () {
 while true $x != "ok"
 do
 clear
-echo -e "CYBERSSH" figlet
+echo -e "PAINEL WEB" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "\033[0;34m╔══════════════════════════════════════════════════════════════╗\033[0m"
 echo -e "\033[1;31m \E[1;31;40m                   ⇱ VELOCIDADE E CONEXAO ⇲                  \E[0m \033[1;37m"
 echo -e "\033[0;34m╠══════════════════════════════════════════════════════════════╣\033[0m"
