@@ -11,7 +11,7 @@ fun_bar "apt-get upgrade -y"
 fun_att () {
     service ssh restart > /dev/null 2>&1
     rm -rf $HOME/install.sh > /dev/null 2>&1
-    wget https://raw.githubusercontent.com/Cyber-ssh/mult/main/install.sh; chmod +x install.sh; ./install.sh > /dev/null 2>&1
+    wget https://raw.githubusercontent.com/Cyber-ssh/mult/main/install.sh; chmod +x install.sh; ./install.sh* > /dev/null 2>&1
 }
 fun_bar 'fun_att'
 echo ""
