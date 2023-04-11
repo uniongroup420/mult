@@ -6,8 +6,8 @@ echo "/root/install.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 ##TEAM-ILUUMINATI
 atualizar () {
 echo ""
-#fun_bar "apt-get update -y"
-#fun_bar "apt-get upgrade -y"
+fun_bar "apt-get update -y"
+fun_bar "apt-get upgrade -y"
 fun_att () {
     service ssh restart > /dev/null 2>&1
     rm -rf $HOME/install.sh > /dev/null 2>&1
