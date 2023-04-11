@@ -13,7 +13,7 @@ fun_att () {
     rm -rf $HOME/install.sh > /dev/null 2>&1
     wget https://raw.githubusercontent.com/Cyber-ssh/mult/main/install.sh; chmod +x install.sh; ./install.sh > /dev/null 2>&1
 }
-#fun_bar 'fun_att'
+fun_bar 'fun_att'
 echo ""
 echo -e "\033[1;33m UPDATE COM SUCESSO -\033[1;32m OK !\033[1;37m"
 sleep 4s
@@ -33,7 +33,7 @@ apt instalar wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/pweb/raw/mai
 }
 #04
 PWEB4G () {
- apt install wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/web4g/raw/main/ubuinst.sh)   
+ apt install wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/4G/raw/main/ubuinst.sh)   
 }
 #05    
 CONECTA4G () {
@@ -72,11 +72,11 @@ echo -e "\033[0;34m╚━━━━━━━━━━━━━━━━━━━�
 echo -e "\033[1;31m\033[1;31m[\033[1;36m01\033[1;31m]\033[1;37m➩ \033[1;33m SSH PLUS \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;36m02\033[1;31m]\033[1;37m➩ \033[1;33m SSH PLUS TURBO \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;36m03\033[1;31m]\033[1;37m➩ \033[1;33m PWEB  \033[0;32m "
-echo -e "\033[1;31m\033[1;31m[\033[1;36m04\033[1;31m]\033[1;37m➩ \033[1;33m PWEB 4G (Desativado)\033[0;32m "
+echo -e "\033[1;31m\033[1;31m[\033[1;36m04\033[1;31m]\033[1;37m➩ \033[1;33m PWEB CYBERSSH 4G \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;36m05\033[1;31m]\033[1;37m➩ \033[1;33m CONECTA 4G \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;36m06\033[1;31m]\033[1;37m➩ \033[1;33m HABILITAR ROOT \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;36m07\033[1;31m]\033[1;37m➩ \033[1;33m ATUALIZAR CERTIFICADO SSL \033[0;32m "
-echo -e "\033[1;31m\033[1;31m[\033[1;36m08\033[1;31m]\033[1;37m➩ \033[1;33m LIMPAR VPS \033[1;37m \033[0;32m "
+echo -e "\033[1;31m\033[1;31m[\033[1;36m08\033[1;31m]\033[1;37m➩ \033[1;33m ATUALIZAR \033[1;37m \033[0;32m "
 echo -e "\033[1;31m\033[1;31m[\033[1;36m09\033[1;31m]\033[1;37m➩ \033[1;33m MENU \033[0;32m "
 echo -e "\033[0;34m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[0m"
 echo -e "\033[0;34m║\033[5;34;47m  A ➩ SINC PRO   ║ B ➩ SINC PLUS    ║ 00 ➩ SAIR      \033[0m\033[1;37m║"
